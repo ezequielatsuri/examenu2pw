@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+   /* font-family: 'Quicksand', sans-serif;*/
+    font-family: "Roboto Flex", sans-serif;
+  }
+.main{
+  width: 100%;
+  height: 130vh;
+  box-sizing: border-box;
+  padding: 80px 80px;
+  background: linear-gradient(to right, #eae7f3 36.9%, #f0f0f0 36.9%, #f4f2f9 100%);
+
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 5px solid white; /* Borde sólido blanco */
+  border-radius: 30px;
+}
+
+
+  .left {
+      background-color:#f4f2f9;
+      width: 35%;
+      height: 100%; /* Solo para propósitos de demostración */
+      display: flex;
+      justify-content: center;
+      position: relative;
+      align-items:end;
+      border-top-left-radius: 25px; /* Radio de borde para la esquina superior izquierda */
+      border-bottom-left-radius: 25px; /* Radio de borde para la esquina inferior izquierda */
+  }
+  
+  .navbar-top .principal{
+      margin-bottom: 180px;
+      margin-left: 100px;
+      width: 200px;
+      height: 200px;
+      transform: rotate(-45deg); /* Rotar la imagen 90 grados en sentido horario */
+  }
+  .navbar-top .logo{
+    margin-left: 30px;
+    width: 150px;
+    height: 70px;
+  }
+
+  .navbar-top h1{
+    font-size: 28px;
+    text-align: left;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    margin-top: 0;
+  }
+  .navbar-top .letrero{
+    color: #683ab7;
+  }
+
+
+
+  .right {
+      
+      background-color: #ffffff;
+      width: 65%;
+      height: 100%; /* Solo para propósitos de demostración */
+      display: flex;
+      flex-direction: column;
+      border-top-right-radius: 25px; /* Radio de borde para la esquina superior derecha */
+    border-bottom-right-radius: 25px; /* Radio de borde para la esquina inferior derecha */
+      
+  }
+  .nav-container{
+   margin-left: 400px;
+   margin-top: 50px;
+  }
+
+  .nav-container a{
+    text-decoration: none; 
+    margin-left: 20px;
+   }
+
+   .nav-container .letras{
+    color: #131313;
+    margin-left: 20px;
+   }
+  .nav-container .boton {
+    background-color:#683ab7;
+    color: white;
+    width: 130px; 
+    height: 40px; 
+    display: inline-block; 
+    text-align: center; /* Para centrar el texto horizontalmente */
+    line-height: 40px; /* Para centrar el texto verticalmente */
+    border-radius: 3px;
+  }
+
+
+  .login-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      justify-content: center;
+      align-items: center;
+      margin: auto auto;
+  }
+
+  .login-container h2 {
+      text-align:left;
+      font-weight: 700;
+      color:#131313;
+      font-size: 32px;
+  }
+
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+      width: 100%; /* Ajuste del ancho para compensar el ancho del borde y el margen */
+      height: 45px;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      font-size: 16px;
+      background-color:#eeecf3;
+      box-sizing: border-box;
+      transition: border-bottom-color 0.3s ease; /* Transición de color del borde inferior */
+  }
+  .login-container input[type="text"]:focus,
+  .login-container input[type="password"]:focus {
+      border-bottom-color: #4caf50; /* Cambiar el color del borde inferior al enfocar */
+  }
+
+  .login-container label {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  .login-container input[type="checkbox"] {
+      margin-right: 5px;
+      color: #2fbe6d;
+
+  }
+  .check_text{
+      font-size: 12px;
+      color: #333333;
+  }
+
+  .login-container input[type="submit"]
+   {
+      width:100%;
+      height: 40px;
+      background-color: #2fbe6d;
+      color: white;
+      border: none;
+      padding: 10px;
+      margin-bottom: 15px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none; /* Para eliminar el subrayado predeterminado del enlace */
+      display: block; /* Para hacer que el enlace ocupe todo el ancho */
+      transition: background-color 0.3s ease;
+  }
+  .login-container a{
+    text-decoration: none;
+    color: #683ab7;
+    font-size: 15px;
+  }
+  .login-container span{
+    color: #8b8b8b;
+    font-size: 15px;
+    margin-right: 5px
+  
+  }
+  
+  .login-container input[type="submit"]:hover {
+      background-color: #23867b;
+  }
+
+  .login-container a:hover {
+    color: black;
+}
+
+  /*.login-container input[type="submit"]:hover,
+  .login-container a:hover {
+      background-color: #4af7e3;
+  }*/
